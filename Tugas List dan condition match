@@ -1,0 +1,6 @@
+kendaraan = ['honda gl 200','motor','caferacer','250','tosca','2']
+print (kendaraan)
+
+kendaraan.append ('25jt')
+kendaraan.insert(2,'honda')
+print (kendaraan)
