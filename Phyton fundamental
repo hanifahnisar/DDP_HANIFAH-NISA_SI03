@@ -1,0 +1,86 @@
+import bangun_datar
+
+def persegi (sisi):
+    luas = sisi*sisi
+    Keliling = 4*sisi
+    print ("Jadi, luas persegi tersebut adalah", luas)
+    print ("Jadi, keliling persegi tersebut adalah", Keliling)
+
+
+def persegipanjang (panjang, lebar):
+    luas = panjang*lebar
+    keliling = panjang+lebar*2
+    print ("Jadi, luas persegi panjang tersebut adalah", luas)
+    print ("jadi, keliling persegi panjang tersebut adalah", keliling)
+
+
+def lingkaran (jari):
+    luas = 22/7*jari*jari
+    keliling = 2*22/7*jari
+    print ("Jadi, luas lingkaran tersebut adalah", luas)
+    print ("Jadi, keliling lingkaran tersebut adalah", keliling)
+
+def segitiga (alas,tinggi): 
+    luas = alas*tinggi
+    keliling = sisi1*sisi2*sisi3
+    print ("Jadi, luas segitiga tersebut adalah", luas)
+    print ("Jadi, keliling segitiga tersebut adalah", keliling)
+    
+def  trapesium (alas,tinggi): 
+    luas = alas*tinggi
+    keliling = panjang+lebar+panjang+lebar
+    print ("Jadi, luas segitiga tersebut adalah", luas)
+    print ("Jadi, keliling segitiga tersebut adalah", keliling)
+    
+def layanglayang(diagonal1, diagonal2, sisi1, sisi2):
+    luas_layanglayang = 0.5(diagonal1 * diagonal2)
+    keliling_layanglayang = 2(sisi1 * sisi2)
+    print("hasilnya adalah", luas_layanglayang)
+    print("hasilnya adalah", keliling_layanglayang)
+    
+def jajargenjang(alas, tinggi, sisi1, sisi2):
+    luas_jajargenjang = alas * tinggi
+    keliling_jajargenjang = sisi1 * sisi2
+    print("hasilnya adalah", luas_jajargenjang)
+    print("hasilnya adalah", keliling_jajargenjang)
+
+    import math 
+
+def tambah(bil1,bil2):
+    hasil = bil1+bil2
+    print("hasil tambah dari" ,bil1,"+",bil2,"=",hasil)
+    
+def kurang(bil1,bil2):
+    hasil = bil1-bil2
+    print("hasil pengurangan dari" ,bil2,"-",bil2,"=",hasil)
+    
+def kali(bil1,bil2):
+    hasil = bil1*bil2
+    print("hasil perkalian dari" ,bil1,"*",bil2,"=",hasil)
+    
+def bagi(bil,bil2):
+    hasil = bil1/bil2
+    print("hasil pembagian dari" ,bil1,"/",bil2,"=",hasil)
+    
+def pangkat(bil,bil2):
+    hasil = math.pow(9)
+    print("hasil pembagian dari" ,bil1,"/",bil2,"=",hasil)
+    
+def akar(bil,bil2):
+    hasil = math.pow(9)
+    print("hasil pembagian dari" ,bil1,"/",bil2,"=",hasil)
+
+    from bangun_datar import
+
+persegi(6)
+persegipanjang (3,2)
+lingkaran (7)
+segitiga(7,6,8)
+trapesium(9)
+
+import math 
+hasil = 7+8
+hasil = 43-7
+hasil = 8*9
+hasil = 60/5
+hasil = 9
